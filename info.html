@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap4.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap5.css" type="text/css">
+    <link rel="stylesheet" href="classes.css" type="text/css">
+    <style>
+        .navbar-nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm" style=" width: 100%; z-index: 1000; background-color: rgb(176, 191, 193);">
+        <div class="container" style="margin-top: 50px;">
+            <a href="Home.html" class="navbar-brand">
+                <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                    class="rounded-pill justify-content-center" alt="image" style="width: 70px;">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="main">
+                <ul class="navbar-nav" style="font-size: large; font-weight: 575;">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link rounded">Home</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="Activity.html" class="nav-link rounded">Activities</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link rounded">Contact</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="#" class="nav-link rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="info.html" class="nav-link rounded">Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center" style="position: relative; top: 25px;">
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Essential Trekking FAQs</h1>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div id="accordian">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#one" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500;">What are the
+                        essential
+                        items to pack for a multi-day trek?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="one" style="color: rgb(176, 31, 31);">Essential items
+                    include a sturdy backpack,
+                    sleeping bag, tent or shelter, clothing suitable for layering, waterproof gear, navigation tools
+                    (map, compass, GPS), food and snacks, water bottles or hydration system, first aid kit, multipurpose
+                    tool or knife, headlamp or flashlight, and personal hygiene items.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#two" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How do I choose
+                        the
+                        right trekking boots for my adventure?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="two" style="color: rgb(176, 31, 31); ">Choose
+                    trekking boots that provide good ankle
+                    support, are waterproof and breathable, have a durable sole with good traction, and fit comfortably
+                    with room for thicker socks. It's important to try on boots in person, preferably with the socks
+                    you'll be wearing while trekking, and to break them in before the trek.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#three" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are some tips
+                        for staying safe while trekking alone?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="three" style="color: rgb(176, 31, 31); ">Inform
+                    someone about your itinerary and
+                    expected return time, stay on marked trails, carry a map and compass (or GPS), be aware of weather
+                    conditions, stay hydrated and well-nourished, avoid risky behaviors, and trust your instincts if a
+                    situation feels unsafe.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#four" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How can I train
+                        and
+                        prepare physically for a challenging trek?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="four" style="color: rgb(176, 31, 31); ">Incorporate
+                    cardiovascular exercise, strength
+                    training, and flexibility exercises into your routine. Gradually increase the duration and intensity
+                    of your workouts to build endurance and strength. Practice hiking with a loaded backpack to simulate
+                    trekking conditions.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#five" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are the
+                        differences between guided and self-guided trekking experiences?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="five" style="color: rgb(176, 31, 31); ">Guided
+                    trekking provides the expertise of a
+                    local guide, logistical support, and a structured itinerary. Self-guided trekking offers more
+                    flexibility and independence but requires thorough trip planning, navigation skills, and
+                    self-sufficiency.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#six" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How can I minimize
+                        my
+                        environmental impact while trekking?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="six" style="color: rgb(176, 31, 31); ">Follow Leave
+                    No Trace principles, pack out all
+                    trash (including biodegradable waste), stay on designated trails, avoid disturbing wildlife,
+                    minimize campfire impacts, use eco-friendly toiletries, and respect local customs and regulations.
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#seven" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What should I do
+                        if
+                        I encounter wildlife while trekking?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="seven" style="color: rgb(176, 31, 31); ">Observe
+                    wildlife from a safe distance, avoid
+                    sudden movements or loud noises, do not feed wild animals, store food securely to prevent attracting
+                    wildlife to campsites, and educate yourself about potential wildlife encounters in the area.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#eight" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How do I navigate
+                        and read trail maps effectively?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="eight" style="color: rgb(176, 31, 31); ">Learn how to
+                    read topographic maps and use a
+                    compass or GPS device. Familiarize yourself with trail symbols and markings, and practice map
+                    reading skills before setting out on a trek.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#nine" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are some
+                        common
+                        mistakes to avoid while trekking?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="nine" style="color: rgb(176, 31, 31); ">Overpacking,
+                    underestimating trek difficulty or
+                    duration, not staying hydrated or nourished, ignoring weather forecasts, not informing someone of
+                    your plans, not carrying essential safety gear, and not respecting local customs or regulations.
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#ten" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How do I plan and
+                        budget for a trekking trip?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="ten" style="color: rgb(176, 31, 31); ">Research
+                    trekking destinations, calculate travel
+                    costs, accommodation expenses, permit fees, and gear rental or purchase costs. Consider
+                    transportation options, meal expenses, and emergency funds in your budget.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#eleven" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are some
+                        alternative options for accommodation while trekking?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="eleven" style="color: rgb(176, 31, 31); ">In addition
+                    to camping, consider staying in
+                    mountain huts, guesthouses, or homestays along the trekking route. These options provide shelter,
+                    meals, and opportunities to interact with locals.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#twelve" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How do I find
+                        reputable trekking guides or tour operators?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="twelve" style="color: rgb(176, 31, 31); ">Read
+                    reviews, seek recommendations from
+                    fellow trekkers or online forums, verify guide certifications and experience, inquire about safety
+                    protocols and emergency procedures, and communicate openly with the guide or operator about your
+                    expectations and concerns.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#thirteen" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are the best
+                        practices for food storage and waste disposal while trekking?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="thirteen" style="color: rgb(176, 31, 31); ">Store
+                    food in odor-proof containers or
+                    bear-proof bags to prevent attracting wildlife. Pack out all trash, including biodegradable waste,
+                    and dispose of waste in designated receptacles or carry-out bags.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#fourteen" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">How can I stay
+                        motivated during long and challenging treks?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="fourteen" style="color: rgb(176, 31, 31); ">Set
+                    achievable goals, break the trek into
+                    manageable segments, focus on the journey rather than the destination, stay positive, reward
+                    yourself for milestones reached, and draw inspiration from the natural surroundings.</div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#fifteen" class="card-link" data-toggle="collapse"
+                        style="text-decoration: none; color: black; font-size: 17px; font-weight:500">What are some
+                        important cultural considerations to keep in mind while trekking in different regions?</a>
+                </div>
+                <div class="collapse" data-parent="#accordian" id="fifteen" style="color: rgb(176, 31, 31); ">Respect
+                    local customs, traditions, and dress
+                    codes. Learn basic phrases in the local language, ask for permission before taking photographs of
+                    people or religious sites, and be mindful of cultural taboos regarding behavior, gestures, and
+                    interactions.</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid bg-dark text-white py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="Home.html">
+                    <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                        class="rounded-circle" alt="logo" style="width: 80px; margin-left: 100px; margin-top: 50px;">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled"">
+                    <h5 style=" color: rgb(193, 63, 63);">Popular Destinations</h5>
+                    <li><a href="kashmirr.html" class="text-white" style="text-decoration: none;">Kashmir</a></li>
+                    <li><a href="#" class="text-white" style="text-decoration: none;">Himachal</a></li>
+                    <li><a href="ladakh.html" class="text-white" style="text-decoration: none;">Ladakh</a></li>
+                    <li><a href="#" class="text-white" style="text-decoration: none;">Kasol</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled">
+                    <h5 style="color: rgb(193, 63, 63);" ;">Quick Links</h5>
+                    <li><a href="Home.html" class="text-white" style="text-decoration: none;">Home</a></li>
+                    <li><a href="Activity.html" class="text-white" style="text-decoration: none;">Activities</a></li>
+                    <li><a href="Contact.html" class="text-white" style="text-decoration: none;">Contact</a></li>
+                    <li>
+                        <a href="#" class="nav-link rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    <li><a href="info.html" class="text-white" style="text-decoration: none;">Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <div>
+                    <h4 style="color: rgb(193, 63, 63);" ;">Contact</h4>
+                    <address>
+                        <strong class="text-white">Ahmedabad (Head Office)</strong><br>
+                        308, University Plaza, Above Chocolate Room,<br>
+                        Vijay Cross Roads, Navrangpura,<br>
+                        Ahmedabad, Gujarat 380009<br><br>
+                        Office Timings: 10AM to 9PM
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashmir</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap4.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap5.css" type="text/css">
+    <link rel="stylesheet" href="classes.css" type="text/css">
+    <style>
+        .p2 {
+            height: 150px;
+            width: 150px;
+            border: 4px solid white;
+            color: white;
+            border-radius: 20px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .navbar-nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm" style=" width: 100%; z-index: 1000; background-color: rgb(176, 191, 193);">
+        <div class="container" style="margin-top: 50px;">
+            <a href="Home.html" class="navbar-brand">
+                <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                    class="rounded-pill justify-content-center" alt="image" style="width: 70px;">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="main">
+                <ul class="navbar-nav" style="font-size: large; font-weight: 575;">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link rounded">Home</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="#" class="nav-link rounded">Activities</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="#" class="nav-link rounded">Contact</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="#" class="nav-link rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="info.html" class="nav-link rounded">Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#"><img class="p1 popular rounded fade-in" src="sonmarge.jpg" alt="img"
+                                style="position: relative; height: 350px; left: 30px ; ">
+                            <h2 style="position: absolute; top: 280px; left: 70px; color: white;">Sonmarg</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-6 ">
+                        <a href="#"><img class="p1 popular rounded fade-in" src="gulmargm.jpg" alt="img"
+                                style="position: relative; height: 350px; right: 60px; ">
+                            <h2 style="position: absolute; top: 280px; left: -10px; color: white;">Gulmarg</h2>
+
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#"><img class="p1 popular rounded fade-in" src="pahalgam.jpg" alt="img"
+                                    style="position: relative; height: 350px; left: 30px;top: 30px; ">
+                                <h2 style="position: absolute; top: 280px; left: 70px; color:white;">Pahalgam</h2>
+
+                            </a>
+                        </div>
+                        <div class="col-md-6 ">
+                            <a href="#"><img class="p1 popular rounded fade-in" src="lakes_kashmir1.jpg" alt="img"
+                                    style="position: relative; height: 350px; right:50px;top: 30px; ">
+                                <h2 style="position: absolute; top: 280px; left: -10px; color:white;">Great lakes</h2>
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="kashmirbg1.jpg" alt="Kashmir" style="height: 100%; width: 450px;"
+                    class="popular rounded fade-in">
+
+                <div style="position: absolute ; top: 50px; left: 50px; color: white;" class="popular rounded fade-in">
+                    <h1
+                        style="font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Kashmir</h1>
+                    <h2>
+                        ₹30,000
+                    </h2>
+                </div>
+                <div class="p2 popular rounded fade-in"
+                    style=" position: absolute; top: 200px;  left: 80px; font-size: x-large;">
+                    <u><b>Event Type</b></u><br><br>
+                    Trekking
+
+                </div>
+                <div class="p2 popular rounded fade-in"
+                    style=" position: absolute; top: 200px;  left: 250px; border-radius: 10px; font-size: x-large;">
+                    <u><b>Best Time</b></u><br>
+                    <br>July-Sept
+                </div>
+                <br>
+                <div class="p2 popular rounded fade-in" style="position: absolute; top: 500px; left: 80px;">
+                    <u><b>Pickup Point</b></u>
+                    <div style="font-size: 22px; font-weight: bold; font-size: medium; "> Tourist place,Shrinagar</div>
+                </div>
+                <br>
+                <div class="p2 popular rounded fade-in"
+                    style="position: absolute; top: 500px; left: 250px; font-size: x-large;">
+                    <u><b>Minimum age</b></u>
+                    <div style="font-size: 22px; font-weight:bold;">13</div>
+                </div>
+                <h5>TREK FORM IS NOT AVAILABLE YET<br>WE WILL UPDATE IT SOON</h5>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="heading">
+            How To Reach
+        </h1>
+        <br>
+        <p class="fact">
+            <b>By Air</b> -
+            Shrinagar Airport is well connected to the major cities of the country. Frequent flights ply from Delhi,
+            Jammu, Mumbai, Bangalore, Chandigarh, and Kolkata. Srinagar airport is about 70 km away from Sonamarg.
+        </p>
+        <br>
+        <p class="fact"><b>By Rail</b> -
+            The Jammu Tawi Railway station is the most convenient stop, from where frequent buses and cabs are available
+            for Srinagar and then Sonamarg.
+        </p>
+        <br>
+        <p class="fact">
+            <b>By Road</b> -
+            Sonamarg is accessible from the other parts of the country via the National Highway 1D. The Srinagar bus
+            stand is about 87 km away from Sonamarg, and sufficient public buses are available from Srinagar to
+            Sonamarg. The Srinagar Bus Stand is well connected to Delhi, Chandigarh, and Jammu
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="heading">OverView</h1>
+        <br>
+        <p class="fact">
+            <b>Kashmir Great Lakes Trek</b> -
+            is one of the Top Treks in India and it is the most popular trek in Kashmir,. The stellar beauty of five
+            alpine lakes lapped in the dreamscape of Kashmir - can you think of a more beautiful combination? Kashmir
+            Great Lakes is a name that sets every trekker's heart racing - and for good reason! The Great Lakes of
+            Kashmir Trek is easily the most beautiful, picture-perfect, postcard-worthy trek we run. The trail of this
+            Himalayan Trekking leads you through five alpine lakes, each as beautiful as the other. The lakes follow one
+            after the other every day, making each day equally exciting. Remember the rush and excitement of a pass
+            day/summit day? Well, multiply all of that by 5, and you have the Kashmir Great Lakes Trekking - each day a
+            beautiful, new lake to look forward to. What's more interesting is that you get to see these lakes just as
+            they are being fed by the snow-clad mountains. If you are lucky enough, you may even chance upon an
+            occasional iceberg floating across the pristine blues and greens of the lake. The beautiful, albeit
+            distorted reflections of the surrounding mountains on the surface of the lake, is also something to look
+            forward to. Given the arduous, undulating trail, Kashmir Great Lakes Trekking demands commendable fitness
+        </p>
+        <br>
+        <p class="fact">
+            <b>Best Time To Visit</b> -
+            The best time for Kashmir great lakes trek is from July to August when the floral colours and greenery are
+            in full bloom. The snow cover melts in June, leaving behind a lush carpet of colours behind. The weather is
+            also quite pleasant during this window
+        </p>
+        <br>
+        <p class="fact">
+            <b> Temprature at Kashmir
+            </b> -
+            The temperature ranges from 17 to 20 degrees Celsius during the daytime and 3 to 4 degrees Celsius at night
+        </p>
+    </div>
+</body>
+
+</html>

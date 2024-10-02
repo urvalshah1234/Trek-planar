@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap5.css">
+    <style>
+        .contact-box {
+            background-color: rgb(211, 209, 209);
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .contact-box {
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar" style="background-color: #212529;">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html">
+                <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                    class="rounded-circle" alt="image" style="width: 70px;">
+            </a>
+            <span class="navbar-text text-white">Contact</span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-box rounded">
+                    <p class="font-weight-bold">Ahmedabad (Head Office)</p>
+                    <p>308, University Plaza, Above Chocolate Room, Vijay Cross Roads, Navrangpura, Ahmedabad, Gujarat -
+                        380009</p>
+                    <p>Office Timings: 11AM to 8PM</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-box rounded">
+                    <p class="font-weight-bold">Rajkot</p>
+                    <p>407, 4th Floor, Business Corner, Opp Indira Circle BRTS, Rajkot, Gujarat - 360005</p>
+                    <p>Office Timings: 11AM to 8PM</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-box rounded">
+                    <p class="font-weight-bold">Baroda</p>
+                    <p>116, Saffron Tower, Fatehgunj, Vadodara, Gujarat - 390008</p>
+                    <p>Office Timings: 11AM to 8PM</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-box rounded">
+                    <p class="font-weight-bold">Surat</p>
+                    <p>436, Rajhans Ornate Mall, Nr Jani Farsan, Parle Point Circle, Athwa, Surat, Gujarat - 395007</p>
+                    <p>Office Timings: 11AM to 8PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid text-white py-5" style="background-color: #212529">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="Home.html">
+                    <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                        class="rounded-circle" alt="logo" style="width: 100px; margin-left: 100px; margin-top: 50px;">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled"">
+                    <h5 style=" color: rgb(193, 63, 63);">Popular Destinations</h5>
+                    <li><a href="kashmirr.html" class="text-white" style="text-decoration: none;">Kashmir</a></li>
+                    <li><a href="#" class="text-white" style="text-decoration: none;">Himachal</a></li>
+                    <li><a href="ladakh.html" class="text-white" style="text-decoration: none;">Ladakh</a></li>
+                    <li><a href="#" class="text-white" style="text-decoration: none;">Kasol</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled">
+                    <h5 style="color: rgb(193, 63, 63);" ;">Quick Links</h5>
+                    <li><a href="Home.html" class="text-white" style="text-decoration: none;">Home</a></li>
+                    <li><a href="Activity.html" class="text-white" style="text-decoration: none;">Activities</a></li>
+                    <li><a href="Contact.html" class="text-white" style="text-decoration: none;">Contact</a></li>
+                    <li>
+                        <a href="#" class="nav-link rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    <li><a href="info.html" class="text-white" style="text-decoration: none;">Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <div>
+                    <h4 style="color: rgb(193, 63, 63);" ;">Contact</h4>
+                    <address>
+                        <strong class="text-white">Ahmedabad (Head Office)</strong><br>
+                        308, University Plaza, Above Chocolate Room,<br>
+                        Vijay Cross Roads, Navrangpura,<br>
+                        Ahmedabad, Gujarat 380009<br><br>
+                        Office Timings: 10AM to 9PM
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
